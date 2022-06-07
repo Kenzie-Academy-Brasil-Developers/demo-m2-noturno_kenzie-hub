@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
         background-color: var(--grey4);
+        font-family: 'Inter', sans-serif;
     }
     button{
         cursor: pointer;
