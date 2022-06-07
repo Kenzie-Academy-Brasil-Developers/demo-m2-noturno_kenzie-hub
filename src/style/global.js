@@ -24,6 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background-color: var(--grey4);
         font-family: 'Inter', sans-serif;
+        color: var(--grey0);
     }
     button{
         cursor: pointer;
