@@ -1,11 +1,10 @@
-import { GlobalStyle } from "./style/global";
+import Button from "./components/Button";
 
 const App = () => {
   return (
-    <>
-      <GlobalStyle />
-      <h1>Kenzie Hub</h1>
-    </>
+    <div>
+      <Button fn={() => console.log("teste")}>Button Text</Button>
+    </div>
   );
 };
 
